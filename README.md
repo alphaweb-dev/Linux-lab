@@ -1,16 +1,35 @@
-# 30 Days of Linux, Git and Cloud administration
+# 30 Days of Linux, Git and Cloud Administration
 
-## About 
-This repository documents my 30-day learning journey into Git, Linux and DevOps fundermentals.
-It serves as a personal knowledge base and case study on how these tools apply to real life scenarios.
+## Overview
+This repository documents my 30-day journey learning Linux, Git, and Cloud Adminstratio.
+It includes daily labs, scripts, and projects that demonstrates my growth and practical skills
 
-## Structure 
-- docs/ - Daily notes (day1.md, day2.md, etc.)
-- scripts/ - Any bash scripts created along the way
-- labs/ - Hands-on exercises, practice files 
-- README.md - Overview of project
+## Structure
+- **docs/** - Daily notes (day1.md, day2.md, etc.)
+- **scripts/** - Bash/Python scripts created along the way
+- **labs/** - Hands-on exercises and practice files
+- **README.md** - Overview and case studies 
 
-## Why this repo?
-- Tracks progress & discipline 
-- Acts as a reference for future projects 
-- Demonstrates consistency and growth
+## Case Study 
+Short description of the project and why it matters:
+
+### Features 
+ - Feature 1
+ - Feature 2
+ - feature 3
+
+### Problem Statement
+
+### How It Works 
+
+### Technologies Used 
+- Linux
+- Git
+- Bash
+- Cloud tools
+
+### What I Learned 
+Lesson 1
+Lesson 2
+
+### Future Improvements
