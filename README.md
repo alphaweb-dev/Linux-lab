@@ -35,3 +35,29 @@ touch file1.txt file2.txt
 mv file1.txt folderA/
 cp folderA/file1.txt folderB/
 rm -r folderA
+
+### Day 4 - Searching Files with grep and find
+
+#### Problem Statement 
+As systems grow larger, searching for specifc text or files manually becomes inefficient.
+System administrators need quick ways to locate logs, configuration values, or specific files in huge directories.
+
+#### What I Did 
+- Used `grep`to search inside files for specific keywords.
+- Practiced case-insensitive searches using the `-i`option.
+- Numbered searches results with `-n`to know the exact line where matches occured occured.
+- Used `find`to locate files and directories by name and type.
+
+#### Why It Matters
+- `grep`helps quickly scan configuration files and logs for errors or keywords.
+- `find`is essential for locating files in complex directory structures.
+- Together, they save time and make troubleshooting much faster.
+
+#### Key Commands Learned 
+```bash
+grep "Linux" mynotes.txt
+grep -i "cloud" mynotes.txt
+grep -n "Ubuntu" mynotes.txt
+find . -name "mynotes.txt"
+find ~-type d -name "day3_lab"
+ 
