@@ -15,7 +15,8 @@ It includes daily labs, scripts, and projects that demonstrates my growth and pr
 ### Day 3 - File & Folder Management
 
 #### Problem Statement 
-In real-world administration, managing files and directories efficiently is critical. Tasks such as creating, moving, copying, and deletimg files form the foundation of Linux administration.
+In real-world administration, managing files and directories efficiently is critical. 
+Tasks such as creating, moving, copying, and deletimg files form the foundation of Linux administration.
 
 #### What I Did
 - Created a working directory (`day3_lab`) to simulate a real lab environment.
@@ -43,14 +44,14 @@ As systems grow larger, searching for specifc text or files manually becomes ine
 System administrators need quick ways to locate logs, configuration values, or specific files in huge directories.
 
 #### What I Did 
-- Used `grep`to search inside files for specific keywords.
-- Practiced case-insensitive searches using the `-i`option.
-- Numbered searches results with `-n`to know the exact line where matches occured occured.
-- Used `find`to locate files and directories by name and type.
+- Used `grep` to search inside files for specific keywords.
+- Practiced case-insensitive searches using the `-i` option.
+- Numbered searches results with `-n` to know the exact line where matches occured occured.
+- Used `find` to locate files and directories by name and type.
 
 #### Why It Matters
-- `grep`helps quickly scan configuration files and logs for errors or keywords.
-- `find`is essential for locating files in complex directory structures.
+- `grep` helps quickly scan configuration files and logs for errors or keywords.
+- `find` is essential for locating files in complex directory structures.
 - Together, they save time and make troubleshooting much faster.
 
 #### Key Commands Learned 
@@ -59,5 +60,5 @@ grep "Linux" mynotes.txt
 grep -i "cloud" mynotes.txt
 grep -n "Ubuntu" mynotes.txt
 find . -name "mynotes.txt"
-find ~-type d -name "day3_lab"
+find ~ -type d -name "day3_lab"
  
