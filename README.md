@@ -62,4 +62,86 @@ grep -i "cloud" mynotes.txt
 grep -n "Ubuntu" mynotes.txt
 find . -name "mynotes.txt"
 find ~ -type d -name "day3_lab"
+```
+
+### day 5 - Exploring Git Logs & Linux History
+
+#### Problem Statement 
+As projects grow, it's important to track changes in Git and also review system history.
+Systems admins and Devops engineers often need to investigate **who changed what, when, and why**.
+
+#### What I Did 
+- Learned how to view Git commit history using `git log`and `git log --online`.
+- Used `git show`to inspect details of a specific commit.
+- Compared two commits using `git diff <commit1> <commit2>`.
+- Praccticed Linux history commands (`history`, `!!`, `!<number>`).
+- Checked logs with `tail`and `less`to monitor system events.
+
+#### Why it Matters 
+- Git logs help trace changes, debug issues, and maintain accountability in teams.
+- System logs (`syslog`, `auth.log`) are vital for troubleshooting errors, security, and audits.
+
+#### Key Commands Learned
+```bash
+git log
+git log --oneline
+git show <commit-id>
+git diff <commit-id1> <commit-id2>
+history
+!!	# repeat last command
+!45	# run command #45 from history
+tail -n 20 /var/log/syslog
+less /var/log/auth.log
+```
+
+### Day 6 - Branching and Merging in Git
+
+#### Problem Statement 
+In real projects, we can't work directly on the main branch (master/main) all the time.
+Developers use branches to add new features without breaking the main codebase.
+
+#### What I did
+- Created new branches using `git checkout -b branch-name`.
+- Switched between branches with `git checkout branch-name`.
+- Merged feature branches back into `master`using `git merge`.
+- Practiced pushing branches to GitHub and syncing changes.
+
+#### Why It matters 
+- Branching keeps work organized and prevents conflicts.
+- Merging allows collaborating and clean integration of features.
+- This workflow is the backbone of professional Git usage.
+
+#### Key Commands Learned 
+```bash
+git checkout -b day6-notes 
+git add file.md
+git commit -m "Added new notes"
+git checkout master 
+git merge day6-notes 
+git push origin master 
+```
+
+### Day 7 - Practice & Keeping a Clean Repo
+
+#### Problem Statement 
+Some repositories confuse both developers and recruiters, because of not showing professionalism in organising their Github repos
+
+#### What I Did 
+- Practiced creating and deleting branches (`git branch -d`, `git push origin --delete branch`).
+- Renamed branches properly (avoiding names like practice.md).
+- Wrote meaningful commit messages instead of random notes.
+- Learned about structuring repos with folders (`docs/`, `labs/`, `scripts/`).
+- Updated README with clear documentation.
+
+#### Why It Matters
+- Clean repos will lead to easy collaboration + professionalism.
+
+#### Key commands Learned
+```bash
+git branch -m Old-name new-name
+git branch -d branch-name
+git push origin --delete branch-name
+mkdir docs labs scripts
+echo "# My Project" > README.md
+```
 
